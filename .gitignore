@@ -1,21 +1,20 @@
-# IntelliJ
+# --- IDEs ---
 .idea/
 *.iml
-
-# Java
-target/
-build/
+*.iws
+*.ipr
 out/
+.vscode/
 
-# Gradle
-.gradle/
-
-# Logs
-*.log
-
-# OS
+# --- OS & System ---
 .DS_Store
 Thumbs.db
-
-# Env
+*.log
 .env
+
+# --- Global Build Defaults ---
+# This ensures that even if you add a frontend later,
+# common build folders are ignored by default.
+.gradle/
+build/
+bin/
