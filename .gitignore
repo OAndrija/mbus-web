@@ -1,0 +1,21 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Java
+target/
+build/
+out/
+
+# Gradle
+.gradle/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
